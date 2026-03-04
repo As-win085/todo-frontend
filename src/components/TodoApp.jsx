@@ -6,7 +6,7 @@ import "./index.css";
 
 import { TailSpin } from 'react-loader-spinner';
 
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://todo-backend-1-w01b.onrender.com/api/tasks";
 
 class TodoApp extends Component {
   state = {
